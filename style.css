@@ -1,0 +1,198 @@
+*{
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #38CB23;
+    position: relative;
+    left: 34%;
+    top: 186px;
+    border: 2px solid;
+}
+p,h2{
+    cursor: none;
+}
+
+p{
+    color: #38CB23;
+}
+
+.logo1{
+    height: 40px;
+    height: 40px;
+    position: relative;
+    top: 14px;
+    right: 6px;
+}
+.logo{
+    height: 243px;
+    position: relative;
+    left: 10;
+    left: 40%;
+    top: 210px;
+}
+
+i.fa-solid.fa-music {
+    color: #38CB23;
+    font-size: 200px;
+    position: relative;
+    left: 40%;
+    top: 212px;
+}
+.first_page{
+    background-color: black;
+}
+
+.container {
+    margin-left: 34%;
+    width: 400px;
+    margin-top: 6%;
+    border: 2px solid;
+    text-align: center;
+    background-color: black;
+    border-color: #38CB23;
+    height: 529px;
+    border-radius: 10px;
+}
+.title{
+    color: #38CB23;
+}
+body{
+background-color:black;
+    height: 570px;
+}
+
+input#progress {
+    width: 92%;
+    margin-left: 2px;
+}
+
+img.images {
+    height: 196px;
+    width: 41%;
+    margin-bottom: 45px;
+    margin-left: 39px;
+    position: relative;
+    top: 35px;
+    right: 19px;    
+}
+span.start {
+    position: relative;
+    right: 41%;
+}
+span.finish {
+    position: relative;
+    bottom: 36px;
+    left: 42%;
+}
+input#volume {
+    margin-left: 82px;
+    margin-top: 25px;
+    position: relative;
+    right: 38px;
+}
+.title>.fa-solid.fa-music{
+    font-size: 25px;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: -15px;
+}
+.play {
+    margin-left: 70px;
+}   
+
+i{
+    font-size: 25px;
+}
+
+i.fa-solid.fa-volume-xmark {
+    font-size: 18px;
+    position: relative;
+    left: 41px;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-volume-up {
+    font-size: 18px;
+    position: relative;
+    left: 41px;
+    cursor: pointer;
+}   
+
+i.fa-solid.fa-arrows-rotate {
+    margin-right: 235px;
+    position: relative;
+    right: 25px;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-shuffle {
+    margin-right: 235px;
+    position: relative;
+    right: 25px;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-backward-step {
+    position: relative;
+    right: 220px;
+    cursor: pointer;
+} 
+
+i.fa-solid.fa-play {
+    position: relative;
+    right: 168px;
+    top: 4px;
+    color: #38CB23;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-forward-step.fa-2px {
+    position: relative;
+    right: 115px;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-pause {
+    position: relative;
+    right: 168px;
+    top: 4px;
+    color: #38CB23;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+#progress{
+    -webkit-appearance:none;
+    width: 40%;
+    height: 6px;
+    background: linear-gradient(180deg,hsla(0, 0%, 75%, 0.2),hsla(0, 0%, 75%, 0.2)) 100% 50%/100% 3px no-repeat transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 13px;
+    height: 13px;
+    background-color:#38CB23;
+    border-radius: 75%;
+}
+
+#volume{
+    -webkit-appearance:none;
+    width: 35%;
+    height: 15px;
+    background: linear-gradient(180deg,hsla(0, 0%, 75%, 0.2),hsla(0, 0%, 75%, 0.2)) 100% 50%/100% 3px no-repeat transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#volume::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 13px;
+    height: 13px;
+    background-color:#38CB23 ;
+    border-radius: 75%;
+}
